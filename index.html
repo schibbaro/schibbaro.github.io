@@ -12,7 +12,7 @@
             background-color: #f4f4f4;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #e61818;
             color: white;
             padding: 15px 0;
             text-align: center;
@@ -61,7 +61,7 @@
         .contact-form button {
             padding: 10px;
             border: none;
-            background-color: #4CAF50;
+            background-color: #e61818;
             color: white;
             border-radius: 5px;
             cursor: pointer;
@@ -71,47 +71,42 @@
 <body>
 
 <header>
-    <h1>Your Name</h1>
-    <p>Welcome to my personal webpage!</p>
+    <h1>Sergio Chibbaro</h1>
+    <h2>Professor in Mechanics</h2>
+    <p>Welcome to my webpage</p>
+    <p>Under development!</p>
 </header>
 
 <nav>
     <a href="index.html">Home</a>
-    <a href="files.html">My Files</a>
+    <a href="files.html">Teaching</a>
 </nav>
 
 <section class="about">
-    <h2>About Me</h2>
-    <p>Hello! I'm [Your Name], a [Your Profession] based in [Your Location]. I have a passion for [Your Interests]. On this website, you can learn more about me, see some of my projects, and get in touch.</p>
+    <img src="profile.jpg" width="40%" height="40%">
+    <p> I am professor at LISN Paris-Saclay.</p>
+    <p> In charge of the master M1 MFL (Mécanique des fluides) Paris-Saclay.</p>
 </section>
 
-<section class="projects">
-    <h2>Projects</h2>
-    <p>Here are a few of the projects I've worked on:</p>
-    <img src="project1.jpg" alt="Project 1">
-    <h3>Project 1</h3>
-    <p>Description of Project 1.</p>
+    <section class="contact">
+    <h2>My contact</h2>
+    <h3>sergio.chibbaro.at.gmail.com</h3>
+</section>
     
-    <img src="project2.jpg" alt="Project 2">
-    <h3>Project 2</h3>
-    <p>Description of Project 2.</p>
+<section class="projects">
+    <h2>Research</h2>
+    <p>Here are a few of the projects I've worked on:</p>
+ 
+        <!--<img src="project2.jpg" alt="Project 2">-->
+    <h3> Statistical mechanics and Machine learning </h3>
+    <p>Multiscale systems, chaos, generative and diffusion models</p>
+
+    <h3>Turbulence</h3>
+    <p>Multiphase flows, stochastic modelling</p>
+    
 </section>
 
-<section class="contact">
-    <h2>Contact Me</h2>
-    <form class="contact-form" action="submit_form.php" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-        
-        <button type="submit">Send Message</button>
-    </form>
-</section>
+
 
 </body>
 </html>
